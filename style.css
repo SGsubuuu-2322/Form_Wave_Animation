@@ -1,3 +1,4 @@
+/* These are the general stylings for the root and body elements... */
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
@@ -17,6 +18,7 @@ body {
   margin: 0;
 }
 
+/* These are for the main container... */
 .container {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
@@ -33,6 +35,7 @@ body {
   color: lightblue;
 }
 
+/* These are for the button element */
 .btn {
   display: inline-block;
   background-color: lightblue;
@@ -52,6 +55,7 @@ body {
   transform: scale(0.98);
 }
 
+/* These are for the general form and its input element... */
 .form-control {
   position: relative;
   width: 300px;
@@ -75,6 +79,7 @@ body {
   border-bottom-color: lightblue;
 }
 
+/* These are for the form labels and its wave animations... */
 .form-control label {
   position: absolute;
   top: 15px;
